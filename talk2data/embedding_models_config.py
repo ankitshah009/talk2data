@@ -1,10 +1,10 @@
 from typing import Optional
 
-from deepsearchai.embedding_models.base import BaseEmbeddingModel
-from deepsearchai.embedding_models.blip_image_captioning import BlipImageCaptioning
-from deepsearchai.embedding_models.clip import Clip
-from deepsearchai.embedding_models.whisper_openai import WhisperOpenAi
-from deepsearchai.enums import MEDIA_TYPE
+from talk2data.embedding_models.base import BaseEmbeddingModel
+from talk2data.embedding_models.blip_image_captioning import BlipImageCaptioning
+from talk2data.embedding_models.clip import Clip
+from talk2data.embedding_models.whisper_openai import WhisperOpenAi
+from talk2data.enums import MEDIA_TYPE
 
 
 class EmbeddingModelsConfig:
