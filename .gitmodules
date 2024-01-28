@@ -1,0 +1,3 @@
+[submodule "mongodb-atlas-vector-search"]
+	path = mongodb-atlas-vector-search
+	url = https://github.com/sujee/mongodb-atlas-vector-search
