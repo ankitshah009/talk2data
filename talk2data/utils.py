@@ -1,6 +1,6 @@
 import mimetypes
 
-from deepsearchai.enums import MEDIA_TYPE
+from talk2data.enums import MEDIA_TYPE
 
 
 def get_mime_type(filename: str) -> MEDIA_TYPE:

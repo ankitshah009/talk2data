@@ -3,8 +3,8 @@ from typing import Dict, List
 from langchain.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage
 
-from deepsearchai.enums import MEDIA_TYPE
-from deepsearchai.types import MediaData, QueryResult
+from talk2data.enums import MEDIA_TYPE
+from talk2data.types import MediaData, QueryResult
 from .base import BaseLLM
 from .configs.openai import OpenAiConfig
 
